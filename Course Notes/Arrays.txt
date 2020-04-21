@@ -1,0 +1,23 @@
+>>> ["Movies", "Games", "Python"]
+['Movies', 'Games', 'Python']
+>>> ["Movies", "Games", "Python"] [0]
+'Movies'
+>>> print("I Like " + ["Moves", "Games", "Python"] [0])
+I Like Moves
+>>> print("I Like " + ["Moves", "Games", "Python"] [1])
+I Like Games
+>>> print("I Like " + ["Moves", "Games", "Python"] [3])
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+    print("I Like " + ["Moves", "Games", "Python"] [3])
+IndexError: list index out of range
+>>> print("I Like " + ["Moves", "Games", "Python"] [2])
+I Like Python
+>>> print("I Like " + ["Moves", 16, "Python"] [1])
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+    print("I Like " + ["Moves", 16, "Python"] [1])
+TypeError: can only concatenate str (not "int") to str
+>>> print("I Like " + ["Moves", "16", "Python"] [1])
+I Like 16
+>>> 

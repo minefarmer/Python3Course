@@ -1,0 +1,17 @@
+>>> 5 == 5
+True
+>>> 5 == 4
+False
+>>> 5 is 5
+True
+>>> 5 is not 5
+False
+>>> "This" is "This"
+True
+
+>>> "True" is True
+False
+
+>>> "True" is True
+False
+>>> 

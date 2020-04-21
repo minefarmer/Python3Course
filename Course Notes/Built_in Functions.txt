@@ -1,0 +1,24 @@
+>>> len(["Hello". "Carl"])
+  File "<input>", line 1
+    len(["Hello". "Carl"])
+                       ^
+SyntaxError: invalid syntax
+>>> len(["Hello", "Carl"])
+2
+>>> len(["Hello", "Carl", "Rich", "Sis", "Roger"])
+5
+>>> sorted([16, 3, 8, 6, 9, 133, 435, 21, 823, 45])
+[3, 6, 8, 9, 16, 21, 45, 133, 435, 823]
+>>> sorted(["B", "R", "a", "N",])
+['B', 'N', 'R', 'a']
+>>> sorted(["B", "R", "A", "N", "C", "d", "f"])
+['A', 'B', 'C', 'N', 'R', 'd', 'f']
+>>> sorted(["B", "R", "A", "N", "C", "d", "f", 5])
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+    sorted(["B", "R", "A", "N", "C", "d", "f", 5])
+TypeError: '<' not supported between instances of 'int' and 'str' 
+>>> sorted(["B", "R", "A", "N", "C", "d", "f", "5"])
+['5', 'A', 'B', 'C', 'N', 'R', 'd', 'f']
+>>> sorted(["B", "R", "A", "N", "C", "7", "8.13", "d", "f", "5"])
+['5', '7', '8.13', 'A', 'B', 'C', 'N', 'R', 'd', 'f']

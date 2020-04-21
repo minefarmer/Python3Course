@@ -1,0 +1,19 @@
+>>> greeting = "Hello World"
+>>> print(greeting)
+Hello World
+>>> greeting = greeting.split(" ") [0]
+>>> print(greeting)
+Hello
+>>> print(greeting + " Rich")
+Hello Rich
+>>> print(greeting + " Carl")
+Hello Carl
+>>> greeting = greeting + " Carl"
+>>> print(greeting)\
+... 
+Hello Carl
+>>> number = 1
+>>> secondNumber = 2
+>>> print(number * secondNumber + secondNumber * number)
+4
+>>> check = True

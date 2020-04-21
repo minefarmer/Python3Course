@@ -1,0 +1,19 @@
+>>> "Hello, " "Rich"
+'Hello, Rich'
+>>> "H" + "e" + "ll" + "o"
+'Hello'
+>>> "This costs " + str(6 + 5) + "dollars"
+'This costs 11dollars'
+>>> "This costs " + str(6 + 5) + " dollars"
+'This costs 11 dollars'
+>>> "Hello:Rich"
+'Hello:Rich'
+>>> "Hello:Rich".split(":")
+['Hello', 'Rich']
+>>> "Hello:Rich":World.split(":")
+  File "<input>", line 1
+SyntaxError: illegal target for annotation
+>>> "Hello:Rich:World".split(":")
+['Hello', 'Rich', 'World']
+>>> "My name is " + "Hello:Rich:World".split(":")[1]
+'My name is Rich'

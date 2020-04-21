@@ -1,0 +1,10 @@
+>>> {"name": "Carl", "age": 81, "hobby": "code"} 
+{'name': 'Carl', 'age': 81, 'hobby': 'code'}
+>>> {"name": "Carl", "age": 81, "hobby": "code"} ['name']
+'Carl'
+>>> {"name": "Carl", "age": 81, "hobby": "code"} ['age']
+81
+>>> {"name": "Carl", "age": 81, "hobby": "code"} ['hobby']
+'code'
+>>> 
+
