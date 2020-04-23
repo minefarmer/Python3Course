@@ -1,0 +1,36 @@
+bpython version 0.17.1 on top of Python 3.7.3 /usr/bin/python3
+>>> import re
+>>> print(string)
+'I AM NOT YELLING', she said. Though we knew it not to be true.
+>>> new = re.sub('[A-Z]', '', string)
+>>> print(new)
+'   ', she said. hough we knew it not to be true.
+>>> new = re.sub('[a-z]', '', string)
+>>> print(new)
+'I AM NOT YELLING',  . T       .
+
+>>> new = re.sub('[.,\']', '', string)
+>>> print (new)
+I AM NOT YELLING she said Though we knew it not to be true
+>>> new = re.sub('[.,\'a-z]', '', string)
+>>> print (new)
+I AM NOT YELLING   T       
+>>> new = re.sub('[.,\'a-zA-Z]', '', string)
+>>> print (new)
+             
+>>> new = re.sub('[.,\'A-Z]', '', string)
+>>> print (new)
+    she said hough we knew it not to be true
+>>> new = re.sub('[.,\'A-Z+" "]', '', string)
+>>> print (new)
+shesaidhoughweknewitnottobetrue
+>>> string = string + "6 298 - 345"
+>>> print (string)
+'I AM NOT YELLING', she said. Though we knew it not to be true.6 298 - 345
+>>> new = re.sub('[0-9]', '', string)
+>>> print (new)
+'I AM NOT YELLING', she said. Though we knew it not to be true.  - 
+>>> new = re.sub('[^0-9]', '', string)
+>>> print (new)
+6298345
+>>> 
