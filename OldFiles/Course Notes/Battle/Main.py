@@ -22,7 +22,7 @@ while running:
 	if index == 0:
 		dmg = player.generate_damage()
 		enemy.take_damage(dmg)
-		print("You attacked for", dmg, "points damage.")
+        print("You attacked for", dmg, "points damage.")
     elif index == 1:
         player.choose_magic()
         magic_choice = int(input("Choose magic:")) - 1
