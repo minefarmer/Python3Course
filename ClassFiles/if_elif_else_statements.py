@@ -1,13 +1,7 @@
 # check = False
 
 # if check == False:
-#     print("It is false")  # It is false
-
-
-# check = True
-
-# if check == False:
-#     print("It is false") # ** nothing printed == no else statement
+#     print("It is false")  # It is false   ***** If check = False = nothing is printed
 
 
 # check = True
@@ -28,3 +22,4 @@ elif check == "YO":
     print("Hello")
 else:
     print("It is actually equal to true")
+    
